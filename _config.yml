@@ -26,7 +26,10 @@ baseurl: "/52North" # the subpath of your site, e.g. /blog
 url: "https://mohammedsaad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  mohammedsaad
-
+# fields used by minima theme but not defaulted by jekyll-new command.
+author: Mohammed Abdelal
+# New Fields not defaulted by jekyll-new with minima theme
+title-logo: /images/52n-logo.gif
 # Build settings
 # remove a minima theme as it is now a regular theme
 # theme: minima
