@@ -18,19 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: 52 North
+email: m.abdelal@52North.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  javaPS enables the deployment of geo-processes on the web in a standardized way. It features a pluggable architecture for processes and data encodings.
 baseurl: "/52North" # the subpath of your site, e.g. /blog
 url: "https://mohammedsaad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  mohammedsaad
 
 # Build settings
-theme: minima
+# remove a minima theme as it is now a regular theme
+# theme: minima
 plugins:
   - jekyll-feed
 
