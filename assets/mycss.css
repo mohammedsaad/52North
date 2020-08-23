@@ -7,7 +7,7 @@ body {
 }
 .trigger {
   background-color:#fdfdfd;
-  text-align: center;
+  text-align: left;
 }
 
 .trigger  ul {
@@ -19,17 +19,22 @@ body {
   width: 130px;
   margin: 10px;
   padding: 4px;
-  text-align: left;
+ text-align:left;
 }
 .trigger ul li a {
  text-decoration:none;
   color:black;
+ 
 }
 .trigger ul li:hover {
   display:block;
- background-color:#ddd;
+ background-color:#63c4e4d6;
  border-radius:3px
 }
+.trigger ul li a{
+	display:inline-block;}
+.trigger ul li a:hover{
+	color:#fff;}
 .trigger .fa{
   margin-right:8px;
 }
@@ -59,7 +64,7 @@ border:1px solid #ddd;
   border:none;
 }
 .trigger ul li:hover .sub-menu-1 ul li a:hover{
-  color:#ddd;
+  color:#63c4e4d6;
 } 
 .trigger ul li:hover .sub-menu-1 ul li a{
 font-size:16px;
@@ -69,3 +74,12 @@ margin-left: -20px;
 }
 .wrapper{
 padding-top:15px;}
+.trigger ul li{
+text-align:center;}
+.site-nav .page-link:not(:last-child) {
+    margin-right: 0px;
+}
+
+.site-header {
+    border-top: 5px solid #63c4e4;
+}
