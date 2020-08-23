@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+ }
+body {
+   font-family: sans-serif;
+}
+.trigger {
+  background-color:#fdfdfd;
+  text-align: center;
+}
+
+.trigger  ul {
+  display: inline-flex;
+  list-style: none;
+  color: black;
+}
+.trigger ul li {
+  width: 130px;
+  margin: 10px;
+  padding: 4px;
+  text-align: left;
+}
+.trigger ul li a {
+ text-decoration:none;
+  color:black;
+}
+.trigger ul li:hover {
+  display:block;
+ background-color:#ddd;
+ border-radius:3px
+}
+.trigger .fa{
+  margin-right:8px;
+}
+.sub-menu-1{
+  display:none;
+border:1px solid #ddd;
+}
+.trigger ul li:hover .sub-menu-1{
+  display:block;
+  position:absolute;
+  background-color:#fdfdfd;
+  margin-top:5px;
+  margin-left:-3px;
+}
+.trigger ul li:hover .sub-menu-1 ul{
+  display:block;
+  margin:10px;
+}
+.trigger ul li:hover .sub-menu-1 ul li{
+  width:150px;
+  padding: 15px;
+  border-bottom: 1px dotted #ddd;
+  background:transparent;
+  text-align:left;
+}
+.trigger ul li:hover .sub-menu-1 ul li:last-child{
+  border:none;
+}
+.trigger ul li:hover .sub-menu-1 ul li a:hover{
+  color:#ddd;
+} 
+.trigger ul li:hover .sub-menu-1 ul li a{
+font-size:16px;
+}
+.footer-col-wrapper{
+margin-left: -20px;
+}
+.wrapper{
+padding-top:15px;}
